@@ -52,7 +52,6 @@ def start_application():
     maze = create_maze(mazeSize)
     maze = make_it_complex(maze, mazeSize)
     maze = maze.tolist()
-    print(maze)
     show_maze(cnv, maze, mazeSize, slotSize)
 
     wnd.mainloop()
